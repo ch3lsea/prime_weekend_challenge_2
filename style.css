@@ -1,0 +1,48 @@
+body {
+	background-color: #B4B4CD;
+}
+
+h1, .enter {
+	text-align: center;
+}
+
+.top {
+	font-size: 20px;
+	text-align: center;
+}
+
+li {
+	font-size: 18px;
+}
+
+.enter {
+	margin-bottom: 30px;
+}
+
+textarea {
+	height: auto;
+    margin-bottom: 20px;
+    margin-left: 30px;/*This doesn't work...at all. Seems the default settings are king...*/
+    overflow: hidden;
+}
+
+#numb {
+	display: inline-block;/*This puts the numbers on the same line*/
+    height: 30px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#numb:first-child {
+	margin-left: 16.5px;/*This centers the numbers*/
+}
+
+#submit {
+	display: block;
+	margin-left: 30px;
+}
+
+.selected {
+	background-color: #0000FF;
+}

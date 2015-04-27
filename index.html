@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Second Weekend Assignment</title>
+		<meta name="Second Weekend Assignment" content="Webpage">
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<div class="col-md-8 col-md-offset-2">
+				<h1>Welcome to Group Organizer</h2>
+				<p class="top">This is a webpage designed to help you organize people into groups</p>
+				<h3>How it works:</h3>
+				<ol>
+					<li>Enter the names of the people you would like to organize into groups</li>
+					<li>Check the box for "Groups" if you would like to divide people into a selected number of groups (if you select 4, there will be a total of 4 groups)</li>
+					<li>Check the box for "People" if you would like to assign a certain number of people to each group (if you select 3, there will be 3 people per group)</li>
+					<li>Select the number of people or groups to divide by</li>
+					<li>Hit "Submit"</li>
+				</ol>
+				<h3 class="enter">Enter Your Info Below</h3>
+			</div>
+		</div>
+		<div id="container">
+			<div class="col-md-8 col-md-offset-2">
+				<form id="form">
+					<div class="col-md-8 col-md-offset-4">
+						<textarea id="text" cols="30" rows="5" placeholder="Name List"></textarea>
+					</div>
+					<div class="col-md-8 col-md-offset-2">
+						<button id="numb" data-teamsize="2">2</button>
+						<button id="numb" data-teamsize="3">3</button>
+						<button id="numb" data-teamsize="4">4</button>
+						<button id="numb" data-teamsize="5">5</button>
+						<button id="numb" data-teamsize="6">6</button>
+						<button id="numb" data-teamsize="7">7</button>
+						<button id="numb" data-teamsize="8">8</button>
+						<button id="numb" data-teamsize="9">9</button>
+						<button id="numb" data-teamsize="10">10</button>
+					</div>
+					<div class="col-md-1 col-md-offset-5">
+						<button id="submit">Submit</button>
+					</div>
+					<div class="groupContainer"></div>
+				</form>
+		</div>
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<!-- Scripts -->
+	</body>
